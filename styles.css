@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Nerko+One&display=swap');
+:root {
+    --primary: #60A5FA;
+    --black: #333333;
+    --width-break: 600px;
+}
+body{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+}
+
+header{
+    height: 6rem;
+    background-color:var(--primary)
+}
+
+
+
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin-top:  2.3rem;
+    margin-right: 1rem;
+    font-family: 'Gochi Hand', cursive;
+}
+
+section{
+    /* height: 20rem; */
+    min-height: 32.3rem;
+    margin: 2rem 2rem;
+    padding-top: 1rem;
+    height: fit-content;
+    
+}
+button{
+    font-family: 'Gochi Hand', cursive;
+    display: block;
+    align-items: center;
+    margin: 2rem auto;
+    color: white;
+    background-color : var(--primary);;
+    font-size: 1rem;
+    cursor: pointer;
+}
+/* #output{
+    border: 1px solid black;
+    height:5rem;
+    width: 80%;
+    margin: auto;
+    
+} */
+h2{
+    text-align: center;
+}
+
+textarea{
+    width: 80%;
+    margin: auto;
+    height: 5rem;
+    display: block;
+   
+    font-family: 'Caveat', cursive;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+#output {
+    width: 60%;
+    height: 5rem;
+    border : 1px solid;
+    display: block;
+    margin:  auto;
+   
+    font-family: 'Caveat', cursive;
+    font-weight: lighter;
+    font-size: 1rem;
+
+}
+
+.notes  {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: larger;
+
+}
+.note h3{ 
+    font-family:'Gochi Hand', cursive;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.note p{
+    margin-top: .5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: #162aadf6;
+    width: 100%;
+
+}
+
+footer h1{
+    text-align: center;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    color: var(--primary);
+    
+
+}
+
+footer p{
+    text-align: center ;
+    font-family: 'Gochi Hand', cursive;
+    /* font-family: 'Caveat', cursive; */
+    font-size: 1.2rem;
+    color: var(--primary);;
+    width:80%;
+    margin : auto;
+    padding-bottom: 1rem;
+}
+
+
+    button{
+        margin: 2rem auto;
+        font-size: 1.5em;
+    }
+    nav {
+        background-color:var(--primary);
+        text-align: center;
+    }
+
+    textarea {
+        width : 60%;
+        height: 18vh;
+    }
+
+    .translatedText{
+        width : 60%;
+        height: 18vh;
+    }
+
+    footer p{
+        width: 60%;
+    }
+
+    .note p{
+        font-size: 1.5rem;
+    }
+}
