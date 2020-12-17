@@ -1,6 +1,12 @@
-var username=prompt("give me ue username")
-alert("this script works " + username); 
 
+var btntranslate=document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-input");
+console.log(txtInput);
+
+btntranslate.addEventListener("click",function clickEventHandler(){
+    console.log("clicked"); 
+    console.log("input",txtInput.value);
+})
 
 
        
